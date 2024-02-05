@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(to right, yellow, orange, darkorange, red);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.search-container {
+  width: 350px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.suggestions {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 350px;
+  margin-top: 0;
+  position: fixed;
+}
+
+ul {
+  padding: 0;
+  border: 0;
+  list-style: none;
+}
+
+ul li.highlight {
+  font-weight: bold;
+  background-color: rgba(180, 117, 21, 0.4);
+}
+
+input {
+  width: 350px;
+  height: 3em;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.4);
+}
